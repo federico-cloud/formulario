@@ -1,0 +1,80 @@
+.form{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    background-color: #00669F;
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+    gap: 15px;
+}
+
+.left input{
+    height: 60px;
+    border-radius: 10px;
+}
+
+.textarea{
+    border-radius: 10px;
+    min-height: 340px;
+}
+
+.right, .left{
+    gap: 15px;
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right select{
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+}
+
+.poderes{
+    border-bottom: 1px solid #FFF;
+}
+
+.poder{
+    margin-bottom: 20px;
+}
+
+.poderes label{
+    display: inline
+}
+
+.personajes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    position: absolute;
+    background-color: #1CD1B0;
+    width: 50%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    bottom: 20px;
+}
+
+input[type="file"]{
+    border: 1px solid red;
+    padding: 30px;
+    height: 30px;
+}
